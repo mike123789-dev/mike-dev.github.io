@@ -167,4 +167,40 @@ main {
     .footer-content {
         padding: 3rem 1rem;
     }
+}
+
+/* Privacy Policy Styles */
+.privacy-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.privacy-content h2 {
+    color: var(--text-color);
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.privacy-content p {
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+.privacy-content ul {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.privacy-content li {
+    margin: 0.5rem 0;
+}
+
+.privacy-content a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.privacy-content a:hover {
+    text-decoration: underline;
 } 
